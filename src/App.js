@@ -12,7 +12,7 @@ function App() {
   //todos => ['test1', 'test2']
 
   const add = () => {
-    console.log(todo)
+    // console.log(todo)
     setTodos([...todos, todo]);
     setTodo('');
   }
